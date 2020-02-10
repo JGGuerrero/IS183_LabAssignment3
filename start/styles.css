@@ -18,6 +18,10 @@ html, body {
     border-radius: 50%;
 }
 
+.drop-shadow {
+    text-shadow: 2px 2px 3px #000000;
+}
+
 .home-container {
     height: 100%;
     display: grid;
@@ -55,6 +59,7 @@ html, body {
     color: #ffffff;
     text-decoration: none;
     padding: 5px 1em;
+    text-shadow: 2px 2px 3px #000000;
     
 }
 
