@@ -116,3 +116,19 @@ h1 {
 
 
 /* end home page css */
+
+#about-container {
+    height: 100%;
+    /* background-color: red; */
+    overflow: auto;
+}
+
+#about-container-inner {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    height: 100%;
+    width: 80%;
+    /* background-color: green; */
+    margin: 0px auto;
+    grid-row-gap: 1em;
+}
